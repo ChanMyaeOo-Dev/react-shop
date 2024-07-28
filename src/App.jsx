@@ -1,10 +1,9 @@
-import React from "react";
+import CategorySection from "./components/CategorySection";
+import Footer from "./components/footer";
 import Header from "./components/Header";
-import Footer from "./components/Footer";
-import CategorySection from "./components/category/CategorySection";
-import ProductSection from "./components/product/ProductSection";
+import ProductSection from "./components/ProductSection";
 
-const App = () => {
+export default function App() {
   return (
     <>
       <Header />
@@ -13,6 +12,4 @@ const App = () => {
       <Footer />
     </>
   );
-};
-
-export default App;
+}

@@ -1,11 +1,14 @@
 import React from "react";
 
 const Footer = () => {
+  const date = new Date();
   return (
-    <footer className="mt-auto">
-      <div className=" bg-slate-800 text-white text-center p-2">
-        @Copyrights
-      </div>
+    <footer className=" mx-5 mt-auto bg-black text-white text-center py-2">
+      © {date.getFullYear()}{" "}
+      <a href="https://mms-it.com" className=" underline text-gray-300">
+        MMS IT
+      </a>
+      . All rights reserved.
     </footer>
   );
 };
